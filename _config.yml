@@ -2,7 +2,7 @@ title: CS458 Manual
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://3-24.github.io/cs458-clang-docs
 
 mermaid:
   # Version of mermaid library
