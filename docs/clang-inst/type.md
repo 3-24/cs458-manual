@@ -25,7 +25,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -100,7 +100,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {

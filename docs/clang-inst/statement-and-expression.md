@@ -28,7 +28,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -79,7 +79,7 @@ bool VisitStmt(Stmt *stmt) {
 }
 ```
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below and apply ```printPretty``` to them:
 ```c
 int main() {
@@ -131,7 +131,7 @@ bool VisitStmt(Stmt *stmt) {
 }
 ```
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -186,7 +186,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -243,7 +243,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -293,7 +293,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 struct a {
@@ -330,7 +330,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 struct a {
@@ -370,7 +370,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 struct a {
@@ -422,7 +422,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 if we execute the above example on the code below:
 ```c
 
@@ -467,7 +467,7 @@ bool VisitFunctionDecl(FunctionDecl *f) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int customFunc(){
@@ -518,7 +518,7 @@ bool VisitFunctionDecl(FunctionDecl *f) {
 }
 ```
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int customFunc(){

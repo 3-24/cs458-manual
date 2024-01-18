@@ -3,10 +3,7 @@ layout: default
 title: Source Code Printing and Instrumentation
 parent: Clang Instrumentation
 nav_order: 2
-has_toc: true
 ---
-
-{:toc}
 
 ## Printing the Source Code
 
@@ -25,7 +22,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -70,7 +67,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example for the code below with a parameter `*stmt` that points to the `if` statement,
 ```c
 int main() {
@@ -125,7 +122,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below, when ```*stmt``` points to the if statement/block:
 ```c
 int main() {
@@ -169,7 +166,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 if we execute the above example on the code below:
 ```c
 int main() {
@@ -204,7 +201,7 @@ bool VisitStmt(Stmt *stmt) {
 }
 ```
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
@@ -263,7 +260,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 
 If we execute the above example on the code below:
 ```c
@@ -323,7 +320,7 @@ bool VisitStmt(Stmt *stmt) {
 ```
 
 <details markdown="block">
-<summary>Example Scenario</summary>
+<summary>Example Usage</summary>
 If we execute the above example on the code below:
 ```c
 int main() {
