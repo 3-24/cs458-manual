@@ -12,7 +12,7 @@ If you are going to use the provided server (recommended!), you may skip this pa
 
 ### LLVM **13.0.1**
 
-All homeworks are designed with version 13.0.1 assumption. Although upstream LLVM is now 17 >=, please use LLVM 13.
+All homeworks are designed with version 13.0.1. Although upstream LLVM is version 17, please use LLVM 13.
 
 To install it locally, you may follow the instructions in following sites.
 
