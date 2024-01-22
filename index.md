@@ -10,9 +10,9 @@ Programming Manual for *CS458 Dynamic Analysis of Software Source Code*
 
 If you are going to use the provided server (recommended!), you may skip this part.
 
-### LLVM 13.0.1
+### LLVM **13.0.1**
 
-Although upstream LLVM is version 17.0.x, please use old version of LLVM. All homeworks are designed with version 13.0.1 assumption.
+All homeworks are designed with version 13.0.1 assumption. Although upstream LLVM is now 17 >=, please use LLVM 13.
 
 To install it locally, you may follow the instructions in following sites.
 
